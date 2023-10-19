@@ -35,13 +35,15 @@ class MyApp(QWidget):
         QShortcut(QKeySequence(Qt.Key_Down), self, activated=self.move_down)
 
     def move_left(self):
-        self.label.setText("balra")
+
         if self.kerekallas > 0.5:
+            self.label.setText("egyenes")
             self.kerekallas = 0.5
             msg = InputValues()
             msg.delta = 0.5
             msg.d = 0.0
         else:
+            self.label.setText("balra")
             self.kerekallas = 0.1
             msg = InputValues()
             msg.delta = 0.1
@@ -50,13 +52,15 @@ class MyApp(QWidget):
         print("Puslishing: ", msg.delta, " ", msg.d )
 
     def move_right(self):
-        self.label.setText("jobbra")
+
         if self.kerekallas < 0.5:
+            self.label.setText("egyenes")
             self.kerekallas = 0.5
             msg = InputValues()
             msg.delta = 0.5
             msg.d = 0.0
         else:
+            self.label.setText("jobbra")
             self.kerekallas = 0.9
             msg = InputValues()
             msg.delta = 0.9
