@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (drive_bridge_msg) JobQueued: {'identifier': 'drive_bridge_msg', 'dependencies': OrderedDict()}
+[0.000657] (drive_bridge_msg) JobStarted: {'identifier': 'drive_bridge_msg'}
+[0.069422] (drive_bridge_msg) JobProgress: {'identifier': 'drive_bridge_msg', 'progress': 'cmake'}
+[0.069936] (drive_bridge_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/bodlaire/Desktop/Sim/src/drive_bridge_msg', '-DCMAKE_INSTALL_PREFIX=/home/bodlaire/Desktop/Sim/install/drive_bridge_msg'], 'cwd': '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2229'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6047c0df8cfed5418e78518d652e466a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:39875'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2535,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2535'), ('INVOCATION_ID', 'df0fea4a4bb94070b3467c4147991735'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93108358_c348_4d23_aa1c_86de0af2f9c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.410'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6047c0df8cfed5418e78518d652e466a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099774] (-) TimerEvent: {}
+[0.184021] (drive_bridge_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199899] (-) TimerEvent: {}
+[0.268760] (drive_bridge_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.275749] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300033] (-) TimerEvent: {}
+[0.346412] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.348623] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400190] (-) TimerEvent: {}
+[0.419610] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.433410] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.433818] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.436051] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500294] (-) TimerEvent: {}
+[0.514969] (drive_bridge_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.516482] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.592815] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600390] (-) TimerEvent: {}
+[0.606108] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.606661] (drive_bridge_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.611101] (drive_bridge_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.633485] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.633730] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700521] (-) TimerEvent: {}
+[0.773684] (drive_bridge_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.776468] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.781559] (drive_bridge_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.800997] (-) TimerEvent: {}
+[0.846862] (drive_bridge_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.863434] (drive_bridge_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.901121] (-) TimerEvent: {}
+[0.923495] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.965392] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.001228] (-) TimerEvent: {}
+[1.047345] (drive_bridge_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.101367] (-) TimerEvent: {}
+[1.112750] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.118096] (drive_bridge_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.141553] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.143982] (drive_bridge_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.168222] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.168440] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.168549] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.168640] (drive_bridge_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.188413] (drive_bridge_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.201462] (-) TimerEvent: {}
+[1.218584] (drive_bridge_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.234866] (drive_bridge_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.236035] (drive_bridge_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.236817] (drive_bridge_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.239895] (drive_bridge_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.256851] (drive_bridge_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.258543] (drive_bridge_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/bodlaire/Desktop/Sim/build/drive_bridge_msg\n'}
+[1.263205] (drive_bridge_msg) CommandEnded: {'returncode': 0}
+[1.264031] (drive_bridge_msg) JobProgress: {'identifier': 'drive_bridge_msg', 'progress': 'build'}
+[1.265280] (drive_bridge_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg', '--', '-j16', '-l16'], 'cwd': '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2229'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6047c0df8cfed5418e78518d652e466a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:39875'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2535,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2535'), ('INVOCATION_ID', 'df0fea4a4bb94070b3467c4147991735'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93108358_c348_4d23_aa1c_86de0af2f9c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.410'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6047c0df8cfed5418e78518d652e466a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.301590] (-) TimerEvent: {}
+[1.306102] (drive_bridge_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.307563] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__cpp\x1b[0m\n'}
+[1.317951] (drive_bridge_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.401701] (-) TimerEvent: {}
+[1.457521] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_generator_c\x1b[0m\n'}
+[1.464975] (drive_bridge_msg) StdoutLine: {'line': b'[  6%] Built target drive_bridge_msg__cpp\n'}
+[1.467712] (drive_bridge_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_generator_c.dir/rosidl_generator_c/drive_bridge_msg/msg/detail/input_values__functions.c.o\x1b[0m\n'}
+[1.476197] (drive_bridge_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.476384] (drive_bridge_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.476573] (drive_bridge_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.501794] (-) TimerEvent: {}
+[1.518267] (drive_bridge_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libdrive_bridge_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.559535] (drive_bridge_msg) StdoutLine: {'line': b'[ 22%] Built target drive_bridge_msg__rosidl_generator_c\n'}
+[1.567201] (drive_bridge_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.571099] (drive_bridge_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.601900] (-) TimerEvent: {}
+[1.617222] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.622056] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.624831] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.626706] (drive_bridge_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drive_bridge_msg/msg/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.631048] (drive_bridge_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drive_bridge_msg/msg/detail/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.636931] (drive_bridge_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drive_bridge_msg/msg/detail/dds_fastrtps/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.702037] (-) TimerEvent: {}
+[1.719157] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_c\x1b[0m\n'}
+[1.726431] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.727807] (drive_bridge_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/drive_bridge_msg/msg/input_values__type_support.cpp.o\x1b[0m\n'}
+[1.735520] (drive_bridge_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drive_bridge_msg/msg/detail/input_values__type_support.c.o\x1b[0m\n'}
+[1.753607] (drive_bridge_msg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.760546] (drive_bridge_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libdrive_bridge_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.781265] (drive_bridge_msg) StdoutLine: {'line': b'[ 51%] Built target drive_bridge_msg__rosidl_typesupport_introspection_c\n'}
+[1.781446] (drive_bridge_msg) StdoutLine: {'line': b'[ 51%] Built target drive_bridge_msg__rosidl_typesupport_c\n'}
+[1.802145] (-) TimerEvent: {}
+[1.849048] (drive_bridge_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.852644] (drive_bridge_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.880158] (drive_bridge_msg) StdoutLine: {'line': b'[ 58%] Built target drive_bridge_msg__rosidl_typesupport_cpp\n'}
+[1.888835] (drive_bridge_msg) StdoutLine: {'line': b'[ 58%] Built target drive_bridge_msg__rosidl_typesupport_introspection_cpp\n'}
+[1.902232] (-) TimerEvent: {}
+[1.944948] (drive_bridge_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.002342] (-) TimerEvent: {}
+[2.017799] (drive_bridge_msg) StdoutLine: {'line': b'[ 61%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.027834] (drive_bridge_msg) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.102461] (-) TimerEvent: {}
+[2.170535] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.183724] (drive_bridge_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drive_bridge_msg/msg/detail/input_values__type_support_c.cpp.o\x1b[0m\n'}
+[2.202556] (-) TimerEvent: {}
+[2.302901] (-) TimerEvent: {}
+[2.403300] (-) TimerEvent: {}
+[2.410599] (drive_bridge_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libdrive_bridge_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.474545] (drive_bridge_msg) StdoutLine: {'line': b'[ 70%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_c\n'}
+[2.483151] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg\x1b[0m\n'}
+[2.493150] (drive_bridge_msg) StdoutLine: {'line': b'[ 70%] Built target drive_bridge_msg\n'}
+[2.499263] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__py\x1b[0m\n'}
+[2.503378] (-) TimerEvent: {}
+[2.510723] (drive_bridge_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.603500] (-) TimerEvent: {}
+[2.704255] (-) TimerEvent: {}
+[2.746872] (drive_bridge_msg) StdoutLine: {'line': b'[ 74%] Built target drive_bridge_msg__py\n'}
+[2.753075] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__python\x1b[0m\n'}
+[2.781427] (drive_bridge_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__python.dir/rosidl_generator_py/drive_bridge_msg/msg/_input_values_s.c.o\x1b[0m\n'}
+[2.804378] (-) TimerEvent: {}
+[2.849595] (drive_bridge_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/drive_bridge_msg/libdrive_bridge_msg__python.so\x1b[0m\n'}
+[2.887676] (drive_bridge_msg) StdoutLine: {'line': b'[ 80%] Built target drive_bridge_msg__python\n'}
+[2.896388] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.896637] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.898290] (drive_bridge_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target drive_bridge_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.904484] (-) TimerEvent: {}
+[2.909657] (drive_bridge_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/drive_bridge_msg/_drive_bridge_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.910063] (drive_bridge_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/drive_bridge_msg/_drive_bridge_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.912548] (drive_bridge_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/drive_bridge_msg/_drive_bridge_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.960026] (drive_bridge_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.967458] (drive_bridge_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.967903] (drive_bridge_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.988992] (drive_bridge_msg) StdoutLine: {'line': b'[100%] Built target drive_bridge_msg__rosidl_typesupport_c__pyext\n'}
+[2.994520] (drive_bridge_msg) StdoutLine: {'line': b'[100%] Built target drive_bridge_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[3.004606] (-) TimerEvent: {}
+[3.018935] (drive_bridge_msg) StdoutLine: {'line': b'[100%] Built target drive_bridge_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.027011] (drive_bridge_msg) CommandEnded: {'returncode': 0}
+[3.063994] (drive_bridge_msg) JobProgress: {'identifier': 'drive_bridge_msg', 'progress': 'install'}
+[3.073685] (drive_bridge_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg'], 'cwd': '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bodlaire'), ('LC_TIME', 'hu_HU.UTF-8'), ('SSH_AGENT_PID', '2460'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bodlaire'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('MANAGERPID', '2229'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6047c0df8cfed5418e78518d652e466a'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bodlaire'), ('JOURNAL_STREAM', '8:39875'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bodlaire'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:@/tmp/.ICE-unix/2535,unix/bodlaire-ASUS-TUF-Gaming-A15-FA507RE-FA507RE:/tmp/.ICE-unix/2535'), ('INVOCATION_ID', 'df0fea4a4bb94070b3467c4147991735'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/93108358_c348_4d23_aa1c_86de0af2f9c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.410'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6047c0df8cfed5418e78518d652e466a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.080315] (drive_bridge_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.080618] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/ament_index/resource_index/rosidl_interfaces/drive_bridge_msg\n'}
+[3.080806] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg\n'}
+[3.080977] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg\n'}
+[3.081071] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail\n'}
+[3.081191] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__struct.h\n'}
+[3.081280] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__type_support.h\n'}
+[3.081386] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__functions.c\n'}
+[3.081471] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__functions.h\n'}
+[3.081558] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.081701] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/input_values.h\n'}
+[3.081794] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/library_path.sh\n'}
+[3.081895] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/library_path.dsv\n'}
+[3.082020] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_generator_c.so\n'}
+[3.082118] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_generator_c.so" to ""\n'}
+[3.082221] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg\n'}
+[3.082341] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg\n'}
+[3.082479] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail\n'}
+[3.082592] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__rosidl_typesupport_fastrtps_c.h\n'}
+[3.082697] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.082783] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[3.082890] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.083009] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg\n'}
+[3.083114] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg\n'}
+[3.083213] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail\n'}
+[3.083297] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.083390] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/dds_fastrtps\n'}
+[3.083496] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.083583] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.083677] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.083800] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg\n'}
+[3.083905] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg\n'}
+[3.084008] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail\n'}
+[3.084125] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__rosidl_typesupport_introspection_c.h\n'}
+[3.084239] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__type_support.c\n'}
+[3.084323] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.084418] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_introspection_c.so\n'}
+[3.084502] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.084598] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_c.so\n'}
+[3.084695] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_c.so" to ""\n'}
+[3.084786] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg\n'}
+[3.084889] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg\n'}
+[3.084987] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.085072] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail\n'}
+[3.085175] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__builder.hpp\n'}
+[3.085258] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__traits.hpp\n'}
+[3.085346] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__struct.hpp\n'}
+[3.085431] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__type_support.hpp\n'}
+[3.085514] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/input_values.hpp\n'}
+[3.085603] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg\n'}
+[3.085688] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg\n'}
+[3.085779] (drive_bridge_msg) StdoutLine: {'line': b'-- Up-to-date: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail\n'}
+[3.085863] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.085945] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/include/drive_bridge_msg/msg/detail/input_values__type_support.cpp\n'}
+[3.086051] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[3.086135] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.086220] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_cpp.so\n'}
+[3.086300] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[3.086384] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/pythonpath.sh\n'}
+[3.086465] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/pythonpath.dsv\n'}
+[3.086545] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/__init__.py\n'}
+[3.104722] (-) TimerEvent: {}
+[3.105949] (drive_bridge_msg) StdoutLine: {'line': b"Compiling '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/__init__.py'...\n"}
+[3.108360] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/msg\n'}
+[3.108630] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/msg/_input_values_s.c\n'}
+[3.108787] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/msg/_input_values.py\n'}
+[3.108887] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/msg/__init__.py\n'}
+[3.109230] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.109897] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.110284] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.111024] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.111337] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[3.112189] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages/drive_bridge_msg/drive_bridge_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[3.112390] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__python.so\n'}
+[3.112891] (drive_bridge_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/libdrive_bridge_msg__python.so" to ""\n'}
+[3.113139] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/msg/InputValues.idl\n'}
+[3.113355] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/msg/InputValues.msg\n'}
+[3.113684] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/ament_index/resource_index/package_run_dependencies/drive_bridge_msg\n'}
+[3.113942] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/ament_index/resource_index/parent_prefix_path/drive_bridge_msg\n'}
+[3.114178] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/ament_prefix_path.sh\n'}
+[3.114350] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/ament_prefix_path.dsv\n'}
+[3.114526] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/path.sh\n'}
+[3.114701] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/environment/path.dsv\n'}
+[3.114866] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/local_setup.bash\n'}
+[3.115031] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/local_setup.sh\n'}
+[3.115192] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/local_setup.zsh\n'}
+[3.115357] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/local_setup.dsv\n'}
+[3.115521] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.dsv\n'}
+[3.115747] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/ament_index/resource_index/packages/drive_bridge_msg\n'}
+[3.116040] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_generator_cExport.cmake\n'}
+[3.116226] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.116489] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.116672] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.116925] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_cExport.cmake\n'}
+[3.117096] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.117351] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_generator_cppExport.cmake\n'}
+[3.117610] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.117790] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.118083] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_cppExport.cmake\n'}
+[3.118270] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.118444] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[3.118624] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.118796] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.118934] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.119013] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.119094] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.119175] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.119258] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msgConfig.cmake\n'}
+[3.119317] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/cmake/drive_bridge_msgConfig-version.cmake\n'}
+[3.119395] (drive_bridge_msg) StdoutLine: {'line': b'-- Installing: /home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.xml\n'}
+[3.121160] (drive_bridge_msg) CommandEnded: {'returncode': 0}
+[3.205715] (-) TimerEvent: {}
+[3.306467] (-) TimerEvent: {}
+[3.406966] (-) TimerEvent: {}
+[3.433881] (drive_bridge_msg) JobEnded: {'identifier': 'drive_bridge_msg', 'rc': 0}
+[3.434386] (-) EventReactorShutdown: {}

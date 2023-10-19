@@ -1,0 +1,4 @@
+source;share/drive_bridge_msg/environment/ament_prefix_path.sh
+source;share/drive_bridge_msg/environment/library_path.sh
+source;share/drive_bridge_msg/environment/path.sh
+source;share/drive_bridge_msg/environment/pythonpath.sh

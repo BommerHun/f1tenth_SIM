@@ -1,0 +1,2 @@
+Invoking command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Sim/build/drive_bridge_msg -- -j16 -l16
+Invoked command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Sim/build/drive_bridge_msg -- -j16 -l16

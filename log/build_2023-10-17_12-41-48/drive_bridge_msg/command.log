@@ -1,0 +1,6 @@
+Invoking command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bodlaire/Desktop/Sim/src/drive_bridge_msg -DCMAKE_INSTALL_PREFIX=/home/bodlaire/Desktop/Sim/install/drive_bridge_msg
+Invoked command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bodlaire/Desktop/Sim/src/drive_bridge_msg -DCMAKE_INSTALL_PREFIX=/home/bodlaire/Desktop/Sim/install/drive_bridge_msg
+Invoking command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Sim/build/drive_bridge_msg -- -j16 -l16
+Invoked command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Sim/build/drive_bridge_msg -- -j16 -l16
+Invoking command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Sim/build/drive_bridge_msg
+Invoked command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Sim/build/drive_bridge_msg

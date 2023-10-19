@@ -1,0 +1,157 @@
+[1.197s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.197s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff2bc35a2e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff2bc35a2e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff2bc35af40>)
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.251s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bodlaire/Desktop/Sim'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'ignore_ament_install'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'colcon_pkg'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['colcon_meta']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'colcon_meta'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/drive_bridge_msg) by extension 'ros'
+[1.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drive_bridge_msg' with type 'ros.ament_cmake' and name 'drive_bridge_msg'
+[1.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/bodlaire/Desktop/Sim/install
+[1.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[1.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_target' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_clean_first' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'cmake_force_configure' from command line to 'False'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'ament_cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.529s] Level 5:colcon.colcon_core.verb:set package 'drive_bridge_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.529s] DEBUG:colcon.colcon_core.verb:Building package 'drive_bridge_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg', 'merge_install': False, 'path': '/home/bodlaire/Desktop/Sim/src/drive_bridge_msg', 'symlink_install': False, 'test_result_base': None}
+[1.548s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.568s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bodlaire/Desktop/Sim/src/drive_bridge_msg' with build type 'ament_cmake'
+[1.568s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bodlaire/Desktop/Sim/src/drive_bridge_msg'
+[1.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Sim/build/drive_bridge_msg -- -j16 -l16
+[3.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bodlaire/Desktop/Sim/build/drive_bridge_msg -- -j16 -l16
+[3.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Sim/build/drive_bridge_msg
+[4.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_bridge_msg)
+[4.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bodlaire/Desktop/Sim/build/drive_bridge_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bodlaire/Desktop/Sim/build/drive_bridge_msg
+[4.048s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg' for CMake module files
+[4.049s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg' for CMake config files
+[4.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'cmake_prefix_path')
+[4.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.ps1'
+[4.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.dsv'
+[4.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.sh'
+[4.070s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib'
+[4.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'ld_library_path_lib')
+[4.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.ps1'
+[4.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.dsv'
+[4.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.sh'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/bin'
+[4.094s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/pkgconfig/drive_bridge_msg.pc'
+[4.095s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages'
+[4.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'pythonpath')
+[4.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.ps1'
+[4.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.dsv'
+[4.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.sh'
+[4.115s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/bin'
+[4.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.ps1'
+[4.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.dsv'
+[4.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.sh'
+[4.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.bash'
+[4.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.zsh'
+[4.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/colcon-core/packages/drive_bridge_msg)
+[4.202s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_bridge_msg)
+[4.222s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg' for CMake module files
+[4.223s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg' for CMake config files
+[4.223s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'cmake_prefix_path')
+[4.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.ps1'
+[4.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.dsv'
+[4.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/cmake_prefix_path.sh'
+[4.244s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib'
+[4.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'ld_library_path_lib')
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.ps1'
+[4.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.dsv'
+[4.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/ld_library_path_lib.sh'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/bin'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/pkgconfig/drive_bridge_msg.pc'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/lib/python3.8/site-packages'
+[4.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_bridge_msg', 'pythonpath')
+[4.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.ps1'
+[4.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.dsv'
+[4.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/hook/pythonpath.sh'
+[4.285s] Level 1:colcon.colcon_core.environment:checking '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/bin'
+[4.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.ps1'
+[4.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.dsv'
+[4.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.sh'
+[4.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.bash'
+[4.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/drive_bridge_msg/package.zsh'
+[4.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bodlaire/Desktop/Sim/install/drive_bridge_msg/share/colcon-core/packages/drive_bridge_msg)
+[4.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.309s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.309s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.333s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.344s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Sim/install/local_setup.ps1'
+[4.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bodlaire/Desktop/Sim/install/_local_setup_util_ps1.py'
+[4.372s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Sim/install/setup.ps1'
+[4.393s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Sim/install/local_setup.sh'
+[4.393s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bodlaire/Desktop/Sim/install/_local_setup_util_sh.py'
+[4.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Sim/install/setup.sh'
+[4.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Sim/install/local_setup.bash'
+[4.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Sim/install/setup.bash'
+[4.436s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bodlaire/Desktop/Sim/install/local_setup.zsh'
+[4.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bodlaire/Desktop/Sim/install/setup.zsh'

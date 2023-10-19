@@ -1,0 +1,32 @@
+In file included from [01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_generator_c/drive_bridge_msg/msg/detail/input_values__functions.h:19[m[K,
+                 from [01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_generator_c/drive_bridge_msg/msg/detail/input_values__functions.c:4[m[K:
+[01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_generator_c/drive_bridge_msg/msg/detail/input_values__struct.h:23:10:[m[K [01;31m[Kfatal error: [m[Kdrive_bridge_msg/msg/detail/float64__struct.h: No such file or directory
+   23 | #include [01;31m[K"drive_bridge_msg/msg/detail/float64__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_bridge_msg__rosidl_generator_c.dir/build.make:92: CMakeFiles/drive_bridge_msg__rosidl_generator_c.dir/rosidl_generator_c/drive_bridge_msg/msg/detail/input_values__functions.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/drive_bridge_msg__rosidl_generator_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_typesupport_fastrtps_cpp/drive_bridge_msg/msg/detail/input_values__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_typesupport_fastrtps_cpp/drive_bridge_msg/msg/detail/dds_fastrtps/input_values__type_support.cpp:4[m[K:
+[01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_generator_cpp/drive_bridge_msg/msg/detail/input_values__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kdrive_bridge_msg/msg/detail/float64__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"drive_bridge_msg/msg/detail/float64__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_typesupport_cpp/drive_bridge_msg/msg/input_values__type_support.cpp:7[m[K:
+[01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_generator_cpp/drive_bridge_msg/msg/detail/input_values__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kdrive_bridge_msg/msg/detail/float64__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"drive_bridge_msg/msg/detail/float64__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_bridge_msg__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/drive_bridge_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drive_bridge_msg/msg/input_values__type_support.cpp.o] Error 1
+make[2]: *** [CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drive_bridge_msg/msg/detail/dds_fastrtps/input_values__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:278: CMakeFiles/drive_bridge_msg__rosidl_typesupport_cpp.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:415: CMakeFiles/drive_bridge_msg__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+In file included from [01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_typesupport_introspection_cpp/drive_bridge_msg/msg/detail/input_values__type_support.cpp:12[m[K:
+[01m[K/home/bodlaire/Desktop/Sim/build/drive_bridge_msg/rosidl_generator_cpp/drive_bridge_msg/msg/detail/input_values__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kdrive_bridge_msg/msg/detail/float64__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"drive_bridge_msg/msg/detail/float64__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drive_bridge_msg/msg/detail/input_values__type_support.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:361: CMakeFiles/drive_bridge_msg__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
